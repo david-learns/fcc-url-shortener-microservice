@@ -1,0 +1,22 @@
+{
+  "name": "shorturl",
+  "version": "0.0.3",
+  "description": "API project for freeCodeCamp",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "set DEBUG=express:* & nodemon server.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:david-learns/fcc-url-shortener-microservice.git"
+  }
+}
