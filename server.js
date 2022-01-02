@@ -1,3 +1,23 @@
+'use strict';
+/**
+ * 
+ * 
+ * david-learned:
+ * 1) detailed server logs help pinpoint problems faster than anything
+ * 2) reading the documentation may not help (unusual for documentation),
+ *    ex: nodejs dns.lookup() documentation does outline proper format of href
+ * 3) error messages are sometimes cryptic and unhelpful
+ * 3) scouring the internet may eventually help
+ * 4) don't give up :)
+ * 
+ * For the URL Shortener Microservice project on freeCodeCamp you do not need
+ * to use dns.lookup() to pass the tests. The hint to use dns.lookup() ruins
+ * the definition of the word. If you do use dns.lookup(), the protocol and
+ * anything following the top-level domain need to be stripped off in order for
+ * the lookup to function as expected. This very small detail caused much
+ * delay and many a profanity.
+ * 
+ */
 const express = require('express');
 const cors = require('cors');
 const dns = require('dns');
