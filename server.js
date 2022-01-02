@@ -5,7 +5,7 @@
  * david-learned:
  * 1) detailed server logs help pinpoint problems faster than anything
  * 2) reading the documentation may not help (unusual for documentation),
- *    ex: nodejs dns.lookup() documentation does outline proper format of href
+ *    ex: nodejs dns.lookup() docs **do not** outline proper format of href
  * 3) error messages are sometimes cryptic and unhelpful
  * 3) scouring the internet may eventually help
  * 4) don't give up :)
